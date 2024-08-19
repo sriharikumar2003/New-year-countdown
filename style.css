@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+}
+
+.countdown {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#time {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.time-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-section span {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.time-section p {
+    margin: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
